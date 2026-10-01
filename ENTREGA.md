@@ -26,7 +26,7 @@ O Linktree foi acessado e seu botão aponta para `558699970427`, divergente do n
 
 ## Pendências
 
-- Arquivo original da logo: a imagem é visível no chat, mas seu arquivo não estava disponível nos anexos locais. Os espaços da marca usam apenas um placeholder textual.
+- Logo aplicada com transparência a partir da imagem enviada.
 - Fotografia autorizada do profissional.
 - Avaliações reais e sua fonte.
 - Endereço presencial, e-mail e OAB: não publicados por falta de confirmação nos canais oficiais. Os perfis do Instagram não puderam ser recuperados. Localização publicada apenas como Teresina/PI e Timon/MA, com atendimento em todo o Brasil.
@@ -46,3 +46,7 @@ O Linktree foi acessado e seu botão aponta para `558699970427`, divergente do n
 - Busca no conteúdo publicado por nomes e contatos antigos e placeholders institucionais: nenhuma ocorrência remanescente. Placeholders de marca, foto e avaliações são intencionais.
 
 Evidências temporárias locais em `.verification/`; esse diretório não integra `dist`.
+
+## Edição da logo
+
+Ferramenta: imagegen integrada, modo de edição com fundo transparente. Prompt final: remover fundo azul-petróleo e cantos cinzas da logo fornecida; preservar o monograma SC, os textos SILVINO / CARNEIRO / ADVOCACIA, as proporções e a cor dourada; eliminar halos e pixels dispersos; produzir PNG com alpha real e pequena margem transparente. Arquivo final: dist/assets/logo-silvino-carneiro.png.
