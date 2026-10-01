@@ -11,7 +11,7 @@
 
 ## Identidade e conteúdo
 
-Paleta aproximada extraída visualmente da logo fornecida na conversa: azul-petróleo `#062B3E`, dourado `#D6C391`, tom claro `#E7DFC8`. Tons auxiliares derivados da mesma referência foram usados para textos e bordas. Valores HEX aproximados, sem manual de marca fornecido.
+Paleta atualizada por solicitação do usuário: fundos e neutros originais do modelo (`#070B1A`, `#0F172A`, `#040712`), com os detalhes dourados substituídos por azul `#60A5FA`, azul claro `#93C5FD` e brilho `#BFDBFE`. Textos brancos e cinzas originais restaurados.
 
 Textos atualizados para Direito Previdenciário e benefícios do INSS. Mantida a expressão “ex-servidor do INSS por 10 anos”. Os quatro cards apresentam planejamento previdenciário, aposentadorias, salário-maternidade e auxílio-reclusão. Não foram criadas seções adicionais. Avaliações permanecem como espaços explicitamente pendentes, sem estrelas, notas ou testemunhos fictícios.
 
