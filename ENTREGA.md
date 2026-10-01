@@ -5,7 +5,7 @@
 - `dist/index.html`: conteúdo institucional, quatro áreas de atuação, três etapas, contatos, título, descrição, Open Graph e textos acessíveis.
 - `tailwind.config.cjs` e `styles/input.css`: cores centralizadas; fontes e dimensões preservadas.
 - `dist/assets/site.css`: recompilado pelo Tailwind.
-- `dist/assets/marca-placeholder.svg` e `dist/assets/foto-placeholder.svg`: espaços provisórios identificados pelo nome do escritório. Não são uma reprodução da logo oficial.
+- `dist/assets/logo-silvino-carneiro.png` e `dist/assets/silvino-carneiro-sobre.png`: logo transparente e fotografia fornecida, editadas conforme solicitado.
 - `scripts/serve.cjs`: tipo MIME de SVG para servir os placeholders corretamente.
 - Removidos `dist/assets/logo-modelo.png` e `dist/assets/foto-modelo.png`.
 
@@ -13,7 +13,7 @@
 
 Paleta atualizada por solicitação do usuário: fundos e neutros originais do modelo (`#070B1A`, `#0F172A`, `#040712`), com os detalhes dourados substituídos por azul `#60A5FA`, azul claro `#93C5FD` e brilho `#BFDBFE`. Textos brancos e cinzas originais restaurados.
 
-Textos atualizados para Direito Previdenciário e benefícios do INSS. Mantida a expressão “ex-servidor do INSS por 10 anos”. Os quatro cards apresentam planejamento previdenciário, aposentadorias, salário-maternidade e auxílio-reclusão. Não foram criadas seções adicionais. Avaliações permanecem como espaços explicitamente pendentes, sem estrelas, notas ou testemunhos fictícios.
+Textos atualizados para Direito Previdenciário e benefícios do INSS. Mantida a expressão “ex-servidor do INSS por 10 anos”. Os quatro cards apresentam planejamento previdenciário, aposentadorias, salário-maternidade e auxílio-reclusão. Não foram criadas seções adicionais. Avaliações preenchidas com oito depoimentos das capturas fornecidas, mantendo os oito espaços únicos e suas cópias para o marquee. Trechos longos foram abreviados com […] sem mudar suas palavras. Nota 5,0 e 39 avaliações identificadas como dados da captura enviada, sem alegar consulta atual ao Google.
 
 ## Canais
 
@@ -28,7 +28,7 @@ O Linktree foi acessado e seu botão aponta para `558699970427`, divergente do n
 
 - Logo aplicada com transparência a partir da imagem enviada.
 - Fotografia autorizada recebida e aplicada na seção Sobre.
-- Avaliações reais e sua fonte.
+- Link direto da ficha Google Maps ainda não fornecido. O botão usa uma busca pelo nome e endereço visível na captura; não afirma ser o link direto da ficha.
 - Endereço presencial, e-mail e OAB: não publicados por falta de confirmação nos canais oficiais. Os perfis do Instagram não puderam ser recuperados. Localização publicada apenas como Teresina/PI e Timon/MA, com atendimento em todo o Brasil.
 - Favicon oficial: o genérico foi removido; nenhum favicon fictício foi criado.
 
@@ -43,7 +43,7 @@ O Linktree foi acessado e seu botão aponta para `558699970427`, divergente do n
 - Comparação dos scripts HTML: JavaScript original integralmente idêntico, incluindo animações, triggers, delays e reprodução do vídeo.
 - Seis seções e quatro cards de atuação preservados. Classes de tamanho, grid, espaçamento, fontes e breakpoints mantidas.
 - SHA-256 dos dois vídeos e dos dois posters conferidos contra `MIDIA-SHA256.txt`: todos idênticos.
-- Busca no conteúdo publicado por nomes e contatos antigos e placeholders institucionais: nenhuma ocorrência remanescente. Placeholders de marca, foto e avaliações são intencionais.
+- Busca no conteúdo publicado por nomes e contatos antigos e placeholders institucionais: nenhuma ocorrência remanescente. Logo, fotografia e avaliações recebidas já foram aplicadas.
 
 Evidências temporárias locais em `.verification/`; esse diretório não integra `dist`.
 
@@ -54,3 +54,7 @@ Ferramenta: imagegen integrada, modo de edição com fundo transparente. Prompt 
 ## Foto da seção Sobre
 
 Edição com imagegen integrada: remover somente o pequeno botão circular com seta à direita da foto enviada, preenchendo o local com o tecido azul do terno; preservar rosto, mãos, roupa, fundo, luz e enquadramento. Arquivo final: dist/assets/silvino-carneiro-sobre.png. Classes e proporção do espaço original preservadas.
+
+## Avaliações recebidas
+
+Fonte: nove capturas enviadas pelo usuário, incluindo o resumo 5,0 / 39 avaliações. Publicados os primeiros oito depoimentos para preservar a quantidade original de cards; o depoimento de Nara Suely Fernandes não foi incluído por falta de um nono espaço no modelo. Nenhum avatar foi gerado. Não foram adicionados dados estruturados de nota agregada. Endereço mostrado na captura utilizado somente para direcionar a busca do botão no Maps.
