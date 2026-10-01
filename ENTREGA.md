@@ -27,7 +27,7 @@ O Linktree foi acessado e seu botão aponta para `558699970427`, divergente do n
 ## Pendências
 
 - Logo aplicada com transparência a partir da imagem enviada.
-- Fotografia autorizada do profissional.
+- Fotografia autorizada recebida e aplicada na seção Sobre.
 - Avaliações reais e sua fonte.
 - Endereço presencial, e-mail e OAB: não publicados por falta de confirmação nos canais oficiais. Os perfis do Instagram não puderam ser recuperados. Localização publicada apenas como Teresina/PI e Timon/MA, com atendimento em todo o Brasil.
 - Favicon oficial: o genérico foi removido; nenhum favicon fictício foi criado.
@@ -50,3 +50,7 @@ Evidências temporárias locais em `.verification/`; esse diretório não integr
 ## Edição da logo
 
 Ferramenta: imagegen integrada, modo de edição com fundo transparente. Prompt final: remover fundo azul-petróleo e cantos cinzas da logo fornecida; preservar o monograma SC, os textos SILVINO / CARNEIRO / ADVOCACIA, as proporções e a cor dourada; eliminar halos e pixels dispersos; produzir PNG com alpha real e pequena margem transparente. Arquivo final: dist/assets/logo-silvino-carneiro.png.
+
+## Foto da seção Sobre
+
+Edição com imagegen integrada: remover somente o pequeno botão circular com seta à direita da foto enviada, preenchendo o local com o tecido azul do terno; preservar rosto, mãos, roupa, fundo, luz e enquadramento. Arquivo final: dist/assets/silvino-carneiro-sobre.png. Classes e proporção do espaço original preservadas.
