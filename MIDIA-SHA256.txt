@@ -1,0 +1,4 @@
+b44752c00bc10cc461d91529439786233b684a3718b63bae3eeb55a8274b56f5  dist/assets/hero-background-loop.mp4
+2e728627a779b5197e6dd7e9449264fa701b0deddf71ad2ac8bd404d5fbbdcf9  dist/assets/hero-background-mobile.mp4
+bd512f7c86ac4e294a330f3a56243dda53c774365a1e69f7bbbba69ff7636c05  dist/assets/hero-poster-desktop.webp
+72ce31bb66426634414cff39c45307090afefa694e484c7a82c0cb80a6ffa29c  dist/assets/hero-poster-mobile.webp

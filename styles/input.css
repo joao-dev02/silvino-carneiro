@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Approximate tones sampled visually from the official logo supplied in chat. */
+:root {
+  --brand-navy: #062b3e;
+  --brand-navy-rgb: 6,43,62;
+  --brand-surface-rgb: 6 43 62;
+  --brand-gold: #d6c391;
+  --brand-gold-rgb: 214,195,145;
+  --brand-gold-light: #e7dfc8;
+  --brand-gold-light-rgb: 231 223 200;
+  --brand-ivory-rgb: 231 223 200;
+}
+:root { --brand-navy-channels: 6 43 62; --brand-gold-channels: 214 195 145; }
